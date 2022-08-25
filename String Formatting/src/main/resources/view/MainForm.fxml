@@ -30,7 +30,7 @@
             </VBox>
             <VBox layoutX="10.0" layoutY="10.0" spacing="10.0">
                <children>
-                  <Label text="Enter a number to format" />
+                  <Label text="Enter a positive integer to format" />
                   <HBox spacing="10.0">
                      <children>
                         <TextField fx:id="txtInput2" onAction="#txtInput2OnAction" prefHeight="24.0" prefWidth="454.0" HBox.hgrow="ALWAYS" />

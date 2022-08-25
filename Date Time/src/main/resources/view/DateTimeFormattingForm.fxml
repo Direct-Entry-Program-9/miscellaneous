@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DateTimeFormattingFormController">
+   <children>
+      <VBox layoutX="20.0" layoutY="96.0" spacing="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="96.0">
+         <children>
+            <Label fx:id="lblDay" alignment="CENTER" prefHeight="56.0" prefWidth="564.0" text="FRIDAY" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="System Bold" size="46.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDate" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="56.0" prefWidth="564.0" text="2022-August-25">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTime" alignment="CENTER" layoutX="10.0" layoutY="66.0" prefHeight="56.0" prefWidth="564.0" style="-fx-text-fill: blue;" text="17:15:00">
+               <font>
+                  <Font size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
